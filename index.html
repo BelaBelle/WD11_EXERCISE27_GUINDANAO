@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.min.css">
+    
+
+    <title>EXERCISE 27</title>
+</head>
+<body>
+    <br><br><br>
+    <div class="container text-center border border-danger shadow-lg p-3 mb-5 rounded" id="backgroundColor">
+        <br><br><br><br><br><br>
+        <h3 class= "text-center text-dark"> RGB Value</h3>
+        <br>
+        <h3 id="colorValue"></h3>
+        <br>
+        <input type="number" min="0" id="timeInterval" placeholder="Input Time Interval" class="input-lg"> 
+<br><br>
+        <h4>CHOOSE COUNTDOWN TO STOP</h4>
+        
+        <h3 class="text-center text-dark"><span id="countdown">3 Seconds</span></h3>
+        <br>
+        <input type="radio" name="time" value="three" id="three" checked id="three"><label for="three">3 SECONDS</label>
+        <input type="radio" name="time" value="five" id="five"><label for="five">5 SECONDS</label>
+        <input type="radio" name="time" value="ten" id="ten"><label for="ten">10 SECONDS</label>
+        <input type="radio" name="time" value="fifteen" id="fifteen"><label for="fifteen">15 SECONDS</label>
+        <br><br>
+        <button onclick="changeColors()" id="changeColorBtn" class="btn btn-danger text-light rounded">CHANGE COLOR</button>
+        <button id="stop" onclick="refresh()" class="btn btn-dark text-light rounded"> REFRESH</button>
+        <br><br>
+        
+
+        <br><br><br>
+
+    </div>
+
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+
+
+</script>
+<script src="main.js"></script>
+
+
+
+</html>
